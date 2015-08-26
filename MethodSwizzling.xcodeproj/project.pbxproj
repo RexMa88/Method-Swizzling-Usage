@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000E503E1B8D84A80020F3B0 /* NewMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E503D1B8D84A80020F3B0 /* NewMethod.m */; };
 		00A5E7491B8D841300D6409C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A5E7481B8D841300D6409C /* main.m */; };
 		00A5E74C1B8D841300D6409C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A5E74B1B8D841300D6409C /* AppDelegate.m */; };
 		00A5E74F1B8D841300D6409C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A5E74E1B8D841300D6409C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000E503C1B8D84A80020F3B0 /* NewMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMethod.h; sourceTree = "<group>"; };
+		000E503D1B8D84A80020F3B0 /* NewMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMethod.m; sourceTree = "<group>"; };
 		00A5E7431B8D841300D6409C /* MethodSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodSwizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A5E7471B8D841300D6409C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A5E7481B8D841300D6409C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 			children = (
 				00A5E74A1B8D841300D6409C /* AppDelegate.h */,
 				00A5E74B1B8D841300D6409C /* AppDelegate.m */,
+				000E503C1B8D84A80020F3B0 /* NewMethod.h */,
+				000E503D1B8D84A80020F3B0 /* NewMethod.m */,
 				00A5E74D1B8D841300D6409C /* ViewController.h */,
 				00A5E74E1B8D841300D6409C /* ViewController.m */,
 				00A5E7501B8D841300D6409C /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A5E74F1B8D841300D6409C /* ViewController.m in Sources */,
+				000E503E1B8D84A80020F3B0 /* NewMethod.m in Sources */,
 				00A5E74C1B8D841300D6409C /* AppDelegate.m in Sources */,
 				00A5E7491B8D841300D6409C /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				00A5E7681B8D841300D6409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A5E7691B8D841300D6409C /* Build configuration list for PBXNativeTarget "MethodSwizzlingTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				00A5E76B1B8D841300D6409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
