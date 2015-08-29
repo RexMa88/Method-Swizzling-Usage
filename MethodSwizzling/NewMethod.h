@@ -12,4 +12,6 @@
 
 - (void)newMethodRunning;
 
+- (void)anotherNewMethodRunning;
+
 @end
