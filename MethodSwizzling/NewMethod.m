@@ -14,4 +14,8 @@
     NSLog(@"The new Method is running");
 }
 
+- (void)anotherNewMethodRunning{
+    NSLog(@"The another Method is running");
+}
+
 @end
